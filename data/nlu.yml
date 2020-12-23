@@ -1,0 +1,168 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - chào
+    - Tôi cần giúp đỡ
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Cảm ơn nha
+    - Tạm biệt
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Ừ
+    - Đúng rồi
+    - Tất nhiên
+    - ok 
+    - cảm ơn 
+    - cam on 
+    - thank 
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - Tôi nghĩ là không có
+    - Tôi không chắc
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - Quá tuyệt
+    - Hay quá
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - Buồn
+    - Tôi ổn
+    - Khỏe
+- intent: question_high_price
+  examples: |
+    - có nhà hàng nào giá cao không
+    - tôi muốn tìm nhà hàng giá tốt nhất
+    - toi muon tim nha hang gia tot nhat
+    - toi muon kiem nha hang gia cao
+    - giá cả cao
+    - nhà hàng cao cấp
+- intent: question_low_price
+  examples: |
+    - gia thap
+    - nha hang gia thap
+    - kinh phí có hạn
+    - tôi muốn kiếm nhà hàng rẻ
+    - giá thấp
+    - gia re
+    - nha hang binh dan
+    - co nha hang nao gia re khong
+    - toi muon tim nha hang gia re
+- intent: help_again
+  examples: |
+    - Còn nhà hàng nào nữa không
+    - Con nha hang nao nua khong
+    - toi can them goi y
+    - Tôi cần thêm gợi ý
+- intent: answer_deny
+  examples: |
+    - Không cảm ơn
+    - No
+    - khong
+    - k
+    - Không
+    - không
+- intent: searchRestaurant
+  examples: |
+    - ket noi chua
+    - hãy gợi ý cho tôi một số nhà hàng
+    - tim nha hang 
+    - toi muon tim nha hang
+    - nha hang
+    - goi y nha hang
+    - tôi tìm kiếm nhà hàng tiệc cưới
+    - tôi muốn thuê nhà hàng
+    - Tôi muốn tìm kiếm nhà hàng gần đây
+    - Tôi muốn biết thông tin một số nhà hàng
+    - Bạn có thể gợi ý một số nhà hàng được không ?
+    - Muốn thuê nhà hàng
+    - toi muon tim nha hang
+    - tôi muốn tìm nhà hàng
+    - Tôi muốn tìm kiếm nhà hàng
+- intent: capacityRestaurant
+  examples: |
+    - Toi muon kiem nha hang chua nhieu khach
+    - Toi muon tim nha hang rong
+    - Toi muon tim nha hang co suc chua lon
+    - Tôi muốn kiếm nhà hàng có sức chứa lớn
+- intent: ratingRestaurant
+  examples: |
+    - nha hang danh gia cao
+    - nha hang tot
+    - chat luong cao
+    - nhà hàng đánh giá cao nhất
+    - nha hang danh gia cao nhat
+    - toi muon tim nha hang co so luong danh gia cao
+    - tôi muốn tìm nhà hàng có số lượng đánh giá cao
+    - tôi muốn tìm nhà hàng nhiều người đặt
+    - toi muon tim nha hang nhieu nguoi dat
+    - toi muon tim nha hang danh gia cao
+    - toi muon tim nha hang duoc danh gia cao
+    - tôi muốn tìm nhà hàng được đánh giá cao

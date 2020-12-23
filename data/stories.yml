@@ -1,0 +1,79 @@
+version: "2.0"
+
+stories:
+
+- story: recommend restaurant n
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: searchRestaurant
+  - action: RecommendRestaurant
+  - intent: help_again
+  - action: RecommendNewRestaurant
+  - intent: question_low_price
+  - action: RestaurantLow
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: capacityRestaurant
+  - action: RecommendRestaurantCapacity
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+
+- story: recommend restaurant 3
+  steps:
+  - intent: searchRestaurant
+  - action: RecommendRestaurant
+  - intent: help_again
+  - action: RecommendNewRestaurant
+  - intent: question_low_price
+  - action: RestaurantLow
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: capacityRestaurant
+  - action: RecommendRestaurantCapacity
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+
+- story: recommend restaurant 4
+  steps:
+  - intent: question_low_price
+  - action: RestaurantLow
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: capacityRestaurant
+  - action: RecommendRestaurantCapacity
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+  
+- story: recommend restaurant 5
+  steps:
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: capacityRestaurant
+  - action: RecommendRestaurantCapacity
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+  
+- story: recommend restaurant 6
+  steps:
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - action: utter_help_again
+  - intent: affirm
+  - action: utter_bye
