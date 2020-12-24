@@ -23,6 +23,38 @@ stories:
   - intent: answer_deny
   - action: utter_bye
 
+- story: recommend restaurant
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: question_low_price
+  - action: RestaurantLow
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: capacityRestaurant
+  - action: RecommendRestaurantCapacity
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+
+- story: recommend restaurantt
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: capacityRestaurant
+  - action: RecommendRestaurantCapacity
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+
 - story: recommend restaurant 3
   steps:
   - intent: searchRestaurant
@@ -70,10 +102,27 @@ stories:
   - intent: answer_deny
   - action: utter_bye
   
+- story: recommend restaurant 9
+  steps:
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: question_low_price
+  - action: RestaurantLow
+  - intent: ratingRestaurant
+  - action: RecommendRestaurantRating
+  - intent: affirm
+  - action: utter_help_again
+  - intent: answer_deny
+  - action: utter_bye
+  
 - story: recommend restaurant 6
   steps:
   - intent: ratingRestaurant
   - action: RecommendRestaurantRating
+  - intent: question_high_price
+  - action: RestaurantHigh
+  - intent: question_low_price
+  - action: RestaurantLow
   - action: utter_help_again
   - intent: affirm
   - action: utter_bye

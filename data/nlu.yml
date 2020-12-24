@@ -103,12 +103,20 @@ nlu:
     - toi muon tim nha hang gia tot nhat
     - toi muon kiem nha hang gia cao
     - giá cả cao
+    - toi muon tim nha hang gia cao
+    - toi muon tim kiem nha hang gia cao
+    - tôi muốn tìm nhà hàng giá cao
+    - tôi muốn tìm nhà hàng giá cao
+    - tôi muốn tìm nhà hàng sang trọng
+    - nhà hàng sang trọng
     - nhà hàng cao cấp
 - intent: question_low_price
   examples: |
     - gia thap
     - nha hang gia thap
     - kinh phí có hạn
+    - toi muon tim nha hang binh dan
+    - tôi muốn tìm nhà hàng bình dân
     - tôi muốn kiếm nhà hàng rẻ
     - giá thấp
     - gia re
@@ -143,7 +151,7 @@ nlu:
     - Tôi muốn biết thông tin một số nhà hàng
     - Bạn có thể gợi ý một số nhà hàng được không ?
     - Muốn thuê nhà hàng
-    - toi muon tim nha hang
+    - tôi muốn tìm kiếm nhà hàng
     - tôi muốn tìm nhà hàng
     - Tôi muốn tìm kiếm nhà hàng
 - intent: capacityRestaurant
@@ -152,6 +160,9 @@ nlu:
     - Toi muon tim nha hang rong
     - Toi muon tim nha hang co suc chua lon
     - Tôi muốn kiếm nhà hàng có sức chứa lớn
+    - tôi muốn tìm nhà hàng rộng rãi
+    - tôi muốn tìm nhà hàng rộng
+    - tôi muốn mời nhiều khách
 - intent: ratingRestaurant
   examples: |
     - nha hang danh gia cao

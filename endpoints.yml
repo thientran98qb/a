@@ -28,7 +28,7 @@ action_endpoint:
 tracker_store:
     type: mongod
     url: mongodb://localhost:27017
-    db: WeddingRestaurantt
+    db: WeddingRestaurant
     collection: profilesrestaurants
     username:
     password:
