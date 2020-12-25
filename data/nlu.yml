@@ -103,6 +103,8 @@ nlu:
     - toi muon tim nha hang gia tot nhat
     - toi muon kiem nha hang gia cao
     - giá cả cao
+    - con nha hang nao gia cao hon khong
+    - còn nhà hàng nào giá cao hơn không
     - toi muon tim nha hang gia cao
     - toi muon tim kiem nha hang gia cao
     - tôi muốn tìm nhà hàng giá cao
@@ -112,6 +114,10 @@ nlu:
     - nhà hàng cao cấp
 - intent: question_low_price
   examples: |
+    - co nha hang nao gia thap khong
+    - có nhà hàng nào giá thấp không
+    - có nhà hàng nào giá rẻ không
+    - tôi muốn tìm nhà hàng rẻ
     - gia thap
     - nha hang gia thap
     - kinh phí có hạn
@@ -123,6 +129,10 @@ nlu:
     - nha hang binh dan
     - co nha hang nao gia re khong
     - toi muon tim nha hang gia re
+    - binh dan thoi
+    - bình dân thôi
+    - nha hang binh dan thoi
+    - nhà hàng bình dân thôi
 - intent: help_again
   examples: |
     - Còn nhà hàng nào nữa không
@@ -167,6 +177,8 @@ nlu:
   examples: |
     - nha hang danh gia cao
     - nha hang tot
+    - nhà hàng đánh giá cao
+    - chất lượng cao
     - chat luong cao
     - nhà hàng đánh giá cao nhất
     - nha hang danh gia cao nhat
